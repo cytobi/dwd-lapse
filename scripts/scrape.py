@@ -1,4 +1,5 @@
-# call whenever you want to scrape the site with location as argument
+# call whenever you want to scrape the site
+# python3 scrape.py [location] [name_addition]
 
 print("Loading libraries...")
 import sys
