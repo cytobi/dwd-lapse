@@ -23,6 +23,6 @@ print("Loading files...")
 images = [img for img in os.listdir(img_folder) if img.endswith(".jpg") and location in img and name_addition in img]
 
 
-print("Writing video...")
+print("Deleting images...")
 for image in images:
     os.remove(os.path.join(img_folder, image))
